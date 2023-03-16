@@ -7,6 +7,6 @@
 int main(void)
 {
 char my_string[] = "with proper grammar, but the outcome is a piece of art,";
-printf("%c", my_string);
+printf("%s", my_string);
 return (0);
 }
