@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) /*Entry Point*/
+{
+char my_string[] = "Programming is like building a multilingual puzzle";
+puts(my_string); /*Writing the string to output stream*/
+return (0);
+}
