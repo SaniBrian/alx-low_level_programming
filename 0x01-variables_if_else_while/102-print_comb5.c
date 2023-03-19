@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			for (k = i+1; k <= '9'; k++)
+			for (k = i; k <= '9'; k++)
 			{
 				for (l = j + 1; l <= '9'; l++)
 				{
@@ -31,6 +31,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
+				l = '0';
 			}
 		}
 	}
