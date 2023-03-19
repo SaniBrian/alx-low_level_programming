@@ -14,7 +14,7 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	while (alph < 'f')
+	while (alph <= 'f')
 	{
 		putchar(alph);
 		alph++;
