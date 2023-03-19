@@ -20,4 +20,5 @@ int main(void)
 		alph++;
 	}
 	putchar('\n');
+	return (0);
 }
