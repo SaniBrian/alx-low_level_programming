@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ *main - entry point
+ * Prints all possible combinations of single-digit numbers
+ * Numbers are seperated by ',' followed by a space
+ * Numbers are printed in ascending order
+ *return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n = '0';
+
+	while (n <= '9')
+	{
+		putchar(n);
+		if (n < '9')
+		{
+			putchar(',');
+			putchar (' ');
+		}
+		n++;
+	}
+	putchar('\n');
+	return (0);
+}
