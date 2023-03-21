@@ -4,7 +4,8 @@
  * jack_bauer - Prints every minutes of the day
  *of Jack Bauer
  *
- * Return: 0
+ * Return: No retun
+ *it is a void function
  */
 void jack_bauer(void)
 {
@@ -30,5 +31,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-	return (0);
 }
