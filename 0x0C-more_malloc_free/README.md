@@ -1,0 +1,1 @@
+More coverage on malloc and free functions
