@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * _calloc - allocates memory for an array and sets all values to 0
