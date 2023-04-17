@@ -6,6 +6,7 @@
  *@name: first member
  *@age: second member
  *@owner: third member
+ *Return: returns 1 if function fails
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
