@@ -23,12 +23,6 @@ void print_dog(struct dog *d)
 		printf("Age: %.6f\n", d->age);
 		printf("Owner: %s", "(nil)\n");
 	}
-	else if (d->name == NULL && d->owner == NULL)
-	{
-		printf("Name: %s", "(nil)\n");
-		printf("Age: %.6f\n", d->age);
-		printf("Owner: %s", "(nil)\n");
-	}
 	else
 	{
 		printf("Name: %s\n", d->name);
