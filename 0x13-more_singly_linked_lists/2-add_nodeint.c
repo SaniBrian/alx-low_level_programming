@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  *add_nodeint - adds a new node at the beginning of a linked list
- *head - pointer to pinter
+ *@head - pointer to pinter
  *@n: integer data
  *Return: address of the new element
  *NULL if it failed
